@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px
+}
+.mainDiv{
+    height:100vh;
+    width:100%;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    padding:20px;
+    margin:5px;
+    text-align: center;
+}
+.buttonDiv{
+    display:flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+}
+.button{
+    padding: 10px;
+    background-color: greenyellow;
+    width:100%;
+}
+
+.inputDiv{
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.input{
+    padding:10px;
+}
+.input::placeholder{
+    text-align: center;
+}
